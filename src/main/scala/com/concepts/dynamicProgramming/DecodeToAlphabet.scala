@@ -24,7 +24,7 @@ object DecodeToAlphabet {
 
 
   def main(args: Array[String]): Unit = {
-      println(decode("2112"))
+      println(decode("12"))
 
   }
 }
