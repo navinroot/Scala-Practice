@@ -29,5 +29,4 @@ object CombinationOfSumOfNumber {
     println(numberOfCombination(10))
   }
 
-
 }
