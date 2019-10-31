@@ -10,7 +10,7 @@ package com.concepts.dynamicProgramming
 object CombinationOfSumOfNumber {
 
   def numberOfCombination(n:Int):Int={
-    val numberArray =Array[Int](2,4,6,10)
+    val numberArray =Array[Int](3,5,10)
     val countArray = Array.fill[Int](n+1)(0)
     countArray(0)=1
 
@@ -26,7 +26,7 @@ object CombinationOfSumOfNumber {
   }
 
   def main(args: Array[String]): Unit = {
-    println(numberOfCombination(10))
+    println(numberOfCombination(13))
   }
 
 }
