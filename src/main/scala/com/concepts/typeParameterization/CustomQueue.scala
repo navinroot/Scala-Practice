@@ -13,7 +13,7 @@ class CustomQueue[T] private (
   def this() = this(Nil,Nil)
   def this(elements:T*)=this(elements.toList,Nil)
 
-  private def mirror ={
+  private def mirror:CustomQueue[T] ={
     if(leading.isEmpty){
       new CustomQueue(trailing.reverse,Nil)
     }else{
@@ -23,7 +23,7 @@ class CustomQueue[T] private (
 
   def head =mirror.leading.head
 
-  def tail ={
+  def tail:CustomQueue[T] ={
     val q = mirror
     new CustomQueue(q.leading.tail,q.trailing)
   }
