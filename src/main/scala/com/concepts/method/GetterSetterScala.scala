@@ -1,5 +1,4 @@
-package com.concepts
-
+package com.concepts.method
 
 class Time {
   private[this] var h = 12

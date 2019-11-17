@@ -1,4 +1,4 @@
-package com.concepts
+package com.concepts.method
 
 class DiffvsVal {
 
