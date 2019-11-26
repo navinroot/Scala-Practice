@@ -20,7 +20,7 @@ object LongestCommonSubsequence {
     if(l1==0 || l2==0){
       return 0
     }
-    if(str1(l1-1)==str2(l2-1)){
+    else if(str1(l1-1)==str2(l2-1)){
       result = 1+findLcsUsingRecursion(str1,str2,l1-1,l2-1)
     }else{
       result = Math.max(findLcsUsingRecursion(str1,str2,l1-1,l2),findLcsUsingRecursion(str1,str2,l1,l2-1))
