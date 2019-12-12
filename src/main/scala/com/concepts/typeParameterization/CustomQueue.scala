@@ -7,7 +7,7 @@ class CustomQueue[T] private (
 
 
   /**
-   * Adding auxilury constructro because primary constructor is private
+   * Adding auxilury constructor because primary constructor is private
    * @return
    */
   def this() = this(Nil,Nil)

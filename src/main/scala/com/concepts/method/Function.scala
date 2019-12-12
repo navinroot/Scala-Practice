@@ -10,8 +10,8 @@ object Function {
   }
 
   def main(args: Array[String]): Unit = {
-  //  var num = increase(10)
-  //  println(num)
+    var num = increase(10)
+    println(num)
 
     var more =1
     val addMore = (x:Int) => x+more
